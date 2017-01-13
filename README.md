@@ -1,4 +1,4 @@
-# OAbic
+# OABic
 
 A very old code on Object-Attribute biclustering. 
 
