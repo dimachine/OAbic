@@ -1,0 +1,29 @@
+digraph lattice
+{
+   // top to bottom
+rankdir=TB;
+concentrate=true;
+edge [dir=back, arrowsize=0.75, color=black];
+// top and bottom concepts
+node [shape=box, peripheries=2, style=filled];
+8 1
+// inner concepts
+node [shape=box, peripheries=1, color=black, style=solid];
+// all concepts
+8 [label="({1, 4}, {'d'})"];
+7 [label="({1, 2, 3}, {'c'})"];
+6 [label="({3, 4}, {'b'})"];
+5 [label="({1, 2}, {'a', 'c'})"];
+4 [label="({4}, {'b', 'd'})"];
+3 [label="({3}, {'b', 'c'})"];
+2 [label="({1, 2}, {'a', 'c'})"];
+1 [label="({1}, {'a', 'c', 'd'})"];
+// links between the concepts
+8 -> 1;
+5 -> 2;
+6 -> 3;
+7 -> 3;
+6 -> 4;
+8 -> 4;
+2 -> 5;
+}

@@ -1,0 +1,12 @@
+Vodka	Vino	Pivo	Konjak	Gorilka	Moloko	Kefir	Varenets	Ryazhenka	Prostokvasha	
+
+1	1	1	1	0	0	0	0	0	0	
+0	1	1	0	0	0	0	0	0	0	
+1	0	0	0	1	0	0	0	0	0	
+1	0	1	0	1	0	0	0	0	0	
+0	1	1	1	0	0	0	0	0	0	
+0	0	0	0	0	1	1	0	1	0	
+0	0	0	0	0	1	0	1	1	0	
+0	0	0	0	0	0	1	0	0	1	
+0	0	0	0	0	1	1	1	1	1	
+0	0	0	0	0	1	1	0	1	1	

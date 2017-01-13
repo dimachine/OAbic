@@ -1,0 +1,13 @@
+digraph lattice
+{
+   // top to bottom
+rankdir=TB;
+concentrate=true;
+edge [dir=back, arrowsize=0.75, color=black];
+// top and bottom concepts
+// inner concepts
+node [shape=box, peripheries=1, color=black, style=solid];
+// all concepts
+1 [label="({1, 2}, {'a', 'c'})"];
+// links between the concepts
+}
